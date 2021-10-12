@@ -15,7 +15,7 @@ nav {
   position: sticky;
   top: 0;
   left: 0;
-  width: 30vw;
+  width: 20vw;
   height: 100vh;
   border: 1px solid #000;
 
@@ -23,6 +23,11 @@ nav {
   flex-direction: column;
 
   text-align: center;
+  background-color: #ccc;
+}
+
+nav ul li a:hover {
+  color: rgb(108, 94, 240);
 }
 
 nav header {
@@ -34,6 +39,8 @@ nav ul li {
   text-align: center;
   margin-block: 5rem;
 }
+
+
 .nav-link {
   text-decoration: none;
   font-size: 2rem;
@@ -41,11 +48,17 @@ nav ul li {
 }
 
 #main-doc {
-  width: 70vw;
+  width: 80vw;
+  background-color: whitesmoke;
 }
 
 .main-section {
   margin: 5rem 4rem;
+  transition: 0.3s;
+}
+.main-section:hover {
+  background-color: antiquewhite;
+  padding: 20px 15px;
 }
 
 #main-doc header {
